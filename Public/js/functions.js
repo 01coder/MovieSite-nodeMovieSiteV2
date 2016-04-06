@@ -1,10 +1,10 @@
 var Act_Name = "";
 var Act_ID = "";
 var Act_Detail, Act_Movies;
-var DETAIL_HOST = "http://myserver-ahmedsilo.rhcloud.com/actid?q=";
-var MOVIES_HOST = "http://myserver-ahmedsilo.rhcloud.com/actmovies?q=";
+var DETAIL_HOST = "https://node-movie-site.herokuapp.com/actid?q=";
+var MOVIES_HOST = "https://node-movie-site.herokuapp.com/actmovies?q=";
 var moviDetail;
-var SEARCH_HOST = "http://myserver-ahmedsilo.rhcloud.com/actsearch?q=";
+var SEARCH_HOST = "https://node-movie-site.herokuapp.com/actsearch?q=";
 var totalPages="";
 var currentPage="";
 var currentUrl="";
